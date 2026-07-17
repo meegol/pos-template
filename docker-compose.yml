@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: mekeni-postgres
+    environment:
+      POSTGRES_DB: mekeni_pos
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # Automatically initialize database tables if needed (JPA handles this too)
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
+    restart: unless-stopped
+
+volumes:
+  pgdata:
