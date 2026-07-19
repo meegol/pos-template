@@ -1,4 +1,4 @@
-package com.mekeni.pos.model;
+package com.template.pos.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

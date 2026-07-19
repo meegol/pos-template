@@ -1,4 +1,4 @@
-package com.mekeni.pos.dto;
+package com.template.pos.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

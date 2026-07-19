@@ -1,7 +1,7 @@
-package com.mekeni.pos.controller;
+package com.template.pos.controller;
 
-import com.mekeni.pos.model.DiningTable;
-import com.mekeni.pos.repository.DiningTableRepository;
+import com.template.pos.model.DiningTable;
+import com.template.pos.repository.DiningTableRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

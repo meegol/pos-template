@@ -1,6 +1,6 @@
-package com.mekeni.pos.repository;
+package com.template.pos.repository;
 
-import com.mekeni.pos.model.DiningTable;
+import com.template.pos.model.DiningTable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

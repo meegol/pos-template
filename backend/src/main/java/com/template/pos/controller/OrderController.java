@@ -1,9 +1,9 @@
-package com.mekeni.pos.controller;
+package com.template.pos.controller;
 
-import com.mekeni.pos.dto.OrderItemRequest;
-import com.mekeni.pos.dto.OrderRequest;
-import com.mekeni.pos.model.*;
-import com.mekeni.pos.repository.*;
+import com.template.pos.dto.OrderItemRequest;
+import com.template.pos.dto.OrderRequest;
+import com.template.pos.model.*;
+import com.template.pos.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

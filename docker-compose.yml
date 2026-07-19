@@ -3,9 +3,9 @@ version: '3.8'
 services:
   postgres:
     image: postgres:15-alpine
-    container_name: mekeni-postgres
+    container_name: pos-postgres
     environment:
-      POSTGRES_DB: mekeni_pos
+      POSTGRES_DB: pos_db
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:

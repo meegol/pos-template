@@ -1,4 +1,4 @@
-package com.mekeni.pos;
+package com.template.pos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -275,7 +275,7 @@ export default function App() {
     return (
       <View style={styles.container}>
         <View style={styles.loginCard}>
-          <Text style={styles.brandTitle}>Mekeni's POS</Text>
+          <Text style={styles.brandTitle}>Mobile POS</Text>
           <Text style={styles.brandSub}>Mobile Order Pad</Text>
 
           <View style={styles.formGroup}>
@@ -384,7 +384,7 @@ export default function App() {
 
   // Screen 3: Menu Pad
   const renderOrderScreen = () => {
-    const categories = ['ALL', 'SIZZLING', 'CLASSIC', 'SILOG', 'DESSERT', 'DRINK'];
+    const categories = ['ALL', 'GRILLED', 'CLASSIC', 'BREAKFAST', 'DESSERT', 'DRINK'];
     
     const filteredProducts = activeCategory === 'ALL'
       ? products
@@ -542,8 +542,8 @@ export default function App() {
 
         <ScrollView style={{ padding: 15 }}>
           <View style={styles.receiptContainer}>
-            <Text style={styles.receiptHeader}>MEKENI'S KAINAN</Text>
-            <Text style={styles.receiptSub}>Guadalupe Nuevo, Makati</Text>
+            <Text style={styles.receiptHeader}>POS TERMINAL</Text>
+            <Text style={styles.receiptSub}>Terminal Store #1</Text>
             <View style={styles.dashedDivider} />
 
             <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginVertical: 5 }}>

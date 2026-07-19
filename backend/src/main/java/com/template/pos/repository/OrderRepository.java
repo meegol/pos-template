@@ -1,6 +1,6 @@
-package com.mekeni.pos.repository;
+package com.template.pos.repository;
 
-import com.mekeni.pos.model.Order;
+import com.template.pos.model.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 import java.util.Optional;

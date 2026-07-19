@@ -1,9 +1,9 @@
-package com.mekeni.pos.controller;
+package com.template.pos.controller;
 
-import com.mekeni.pos.dto.LoginRequest;
-import com.mekeni.pos.dto.LoginResponse;
-import com.mekeni.pos.model.User;
-import com.mekeni.pos.repository.UserRepository;
+import com.template.pos.dto.LoginRequest;
+import com.template.pos.dto.LoginResponse;
+import com.template.pos.model.User;
+import com.template.pos.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

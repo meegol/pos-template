@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Mekeni POS",
-    "slug": "mekeni-pos-frontend",
+    "name": "Mobile POS",
+    "slug": "pos-template-frontend",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

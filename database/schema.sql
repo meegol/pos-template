@@ -1,4 +1,4 @@
--- Mekeni's POS Database Schema (PostgreSQL)
+-- Generic POS Database Schema (PostgreSQL)
 
 -- 1. Users Table (Staff Accounts)
 CREATE TABLE IF NOT EXISTS users (

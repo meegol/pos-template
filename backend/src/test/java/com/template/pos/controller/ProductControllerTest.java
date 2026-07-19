@@ -1,7 +1,7 @@
-package com.mekeni.pos.controller;
+package com.template.pos.controller;
 
-import com.mekeni.pos.model.Product;
-import com.mekeni.pos.repository.ProductRepository;
+import com.template.pos.model.Product;
+import com.template.pos.repository.ProductRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,6 +53,6 @@ public class ProductControllerTest {
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.length()").value(13))
-                .andExpect(jsonPath("$[0].name").value("Sizzling Pork Sisig"));
+                .andExpect(jsonPath("$[0].name").value("Sizzling Garlic Ribeye"));
     }
 }
