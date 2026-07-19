@@ -1,0 +1,16 @@
+# Maven build outputs
+backend/target/
+backend/*.class
+
+# Node modules and build files
+node_modules/
+frontend/node_modules/
+frontend/package-lock.json
+.expo/
+frontend/.expo/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.DS_Store
